@@ -1,0 +1,40 @@
+@import url(netflix_macos_bigsur_icon_189917.png);
+img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+header{
+    background: rgb(197, 9, 9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header ul{
+ display: flex;
+ list-style: none;
+ justify-content: space-around;
+}
+header a{
+    text-decoration: none;
+    color: #fff
+}
+li{
+    padding: 10px;
+}
+a{
+    display: flex;
+}
+.films{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.card{
+    border: 3px solid rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 15px;
+}
+.search{
+    display: flex;
+}
