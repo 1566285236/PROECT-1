@@ -1,40 +1,17 @@
-@import url(netflix_macos_bigsur_icon_189917.png);
-img{
-    height: 100px;
-    width: 100px;
-    margin: auto;
-}
-header{
-    background: rgb(197, 9, 9);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-header ul{
- display: flex;
- list-style: none;
- justify-content: space-around;
-}
-header a{
-    text-decoration: none;
-    color: #fff
-}
-li{
-    padding: 10px;
-}
-a{
+/* @import url(https://cdn.icon-icons.com/icons2/317/PNG/512/light-bulb-icon_34400.png); */
+/* div{
+height: 150px;
+  width: 150px;
+  display: flex;
+} */
+/* img{
+    text-align: right;
+    float: right;
+} */
+.exp-cards {
     display: flex;
 }
-.films{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-}
-.card{
-    border: 3px solid rgb(0, 0, 0);
-    padding: 15px;
-    border-radius: 15px;
-}
-.search{
-    display: flex;
+
+.exp-cards img {
+    height: 125px;
 }
