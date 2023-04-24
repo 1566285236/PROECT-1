@@ -1,0 +1,36 @@
+body {
+    display:flex;
+}
+.right {
+    width: 100%;
+    background: url('https://funart.pro/uploads/posts/2021-04/thumbs/1617457470_19-p-oboi-more-vid-sverkhu-20.jpg')
+}
+.user {
+    display:flex;
+}
+.user img {
+    height: 50px;
+    width: 50px;
+}
+li  {
+    display:flex;
+}
+li img{
+    height: 50px;
+    width: 50px;
+}
+header img{
+    height: 50px;
+    width: 50px;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+.right li{
+    background: rgba(217, 217, 217, 0.61);
+backdrop-filter: blur(2.5px);
+display:flex;
+justify-content: space-between;
+    align-items: center;
+}
